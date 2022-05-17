@@ -1,8 +1,8 @@
-.main{
+/* .main{
   display: flex;
   flex-direction: row;
   overflow: unset;
-}
+} */
 
 @keyframes float{
   0% {
@@ -48,20 +48,6 @@ h1{
   color: white;
 }
 
-div {
-  animation-delay: 2s;
-  animation-direction: normal;
-  animation-duration: 8s;
-  animation-iteration-count: 1;
-  animation-name: name-animated;
-  animation-play-state: running;
-  animation-timing-function: ease;
-  background-attachment: scroll;
-  background-clip: border-box;
-  background: white;
-  width: 360px;
-}
-
 p1{
   color: white;
 }
@@ -77,11 +63,11 @@ p1{
   background-color: #45462a;
 }
 
-.nav-menu{
+/* .nav-menu{
   list-style-type: none;
   padding: 0;
   color: white;
-}
+} */
 
 #article{
   width: 80%;
@@ -92,12 +78,19 @@ p1{
 body{
   font-family: sans-serif;
   font-size:110%;
-  background-color: white;
-
+  background-image: url(https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1296&q=60);
 }
+
+/* .content{
+  display: inline-block;
+  width: 25%;
+  height: 250px;
+  margin: 5px;
+} */
 
 h2 {
   font: bold; 
+  margin-bottom: 3px;
   size: 24px;
   color: black;
 }
