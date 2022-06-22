@@ -57,24 +57,26 @@ p1{
   background-color: #45462a;
 }
 
-/* .nav-menu{
-  list-style-type: none;
-  padding: 0;
-  color: white;
-} */
-
 #article{
   width: 80%;
   padding: 1rem;
   margin: 1rem;
 }
 
+.button{
+  color: #343330;
+}
+
 .btn-group{
   background-color: teal;
 }
 
-.carousel-inner{
-  height: 5cm;
+.carousel-inner img{
+  width: fit-content;
+  width: 20cm;
+  margin: auto;
+  margin-top: 3rem;
+  display: block;
 }
 
 body{
@@ -82,13 +84,6 @@ body{
   font-size:110%;
   background-image: url(https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1296&q=60);
 }
-
-/* .content{
-  display: inline-block;
-  width: 25%;
-  height: 250px;
-  margin: 5px;
-} */
 
 h2 {
   font: bold; 
@@ -109,6 +104,7 @@ h3 {
 h4 {
   color: white
 }
+
 
 .icons{
   align-content: stretch;
