@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+    <!-- Linked in my stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <!-- adding all the bootstrap links so that my boodstrap works -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>   
@@ -13,9 +15,9 @@
   </head>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  
+  <!-- This is the bootstrap for my navbar which is seen on the top of my Resume, each nav-item has a link that takes you to the correct part of the page-->
   <nav class="navbar navbar-expand-sm bg-white navbar-white">
-    <div class="container-fluid">
+    <div class="container-fluid"> 
       <a class="navbar-brand" href="#">Menu</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -23,13 +25,13 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#Education">Education</a>
+            <a class="nav-link" href="#Education">Education</a> <!-- These are my navbar items names and also the 3 main sections of my Resume-->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Experience">Experience</a>
+            <a class="nav-link" href="#Experience">Experience</a> <!-- These are my navbar items names and also the 3 main sections of my Resume-->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Skills">Skills</a>
+            <a class="nav-link" href="#Skills">Skills</a> <!-- These are my navbar items names and also the 3 main sections of my Resume-->
           </li> 
         </ul>
       </div>
@@ -38,14 +40,15 @@
 
   <body>
   
-  <header id="heading">
+  <header id="heading"> <!-- This is where my heading starts, it has my profile picture inside and the picture is animated as part of doing an animation challenge within the code-->
 
     <picture>
       <img src="images/profile1.jpeg" width="200px" 
-      alt="Resume 1 Picture" id="ProfilePicture">
+      alt="Resume 1 Picture" id="ProfilePicture"> <!-- This is where my image can be found within my images folder. This is my profile picture Id and alt-->
     </picture>
 
-    <h1 style="color: white;">Chanique Lombard</h1>
+    <h1 style="color: white;">Chanique Lombard</h1> <!-- This is my name and my first Header -->
+    <!-- This is a paragraph about myself and a bit about who I am and what I'm currently up to-->
       <p1>I'm Chanique Lombard and I'm 24-years-young. I have interests in just about everything and 
       I am never to scared to try something new. Currently I am pursuing my life long dream of becoming a software developer. I’ve never really had the opportunity to go and study in regards with becoming a developer so this is me and my chance to do something great.</p1>  
 
@@ -53,21 +56,21 @@
 
   <div id="demo" class="carousel slide" data-bs-ride="carousel"  >  
 
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <h5> I love doing adventurous stuff, bungee jumping, rock climbing, watersports and so much more! </h5>
-        <img src="images/bungeejump.jpeg" alt="Image of Chanique bungee jumping">
+    <div class="carousel-inner"> <!-- This is my carousel inner, which is the images that rotate, or when you push the carousel-next or carousel-prev button -->
+      <div class="carousel-item active"> <!-- The active here, triggers the carousel to keep on moving as soon as the webpage has loaded -->
+        <h5> I love doing adventurous stuff, bungee jumping, rock climbing, watersports and so much more! </h5> <!-- I added these just to give a bit of background for each image and to make it fun-->
+        <img src="images/bungeejump.jpeg" alt="Image of Chanique bungee jumping"> <!-- This is where my image can be found within my images folder with the alt-->
       </div>
       <div class="carousel-item">
-        <h5> Motorcycle riding has been apart of my life since the age of 2-years-old...</h5>
-        <img src="images/bmwbikeride.jpeg" alt="Image of Chanique riding motorcycle">
+        <h5> Motorcycle riding has been apart of my life since the age of 2-years-old...</h5> <!-- I added these just to give a bit of background for each image and to make it fun-->
+        <img src="images/bmwbikeride.jpeg" alt="Image of Chanique riding motorcycle"> <!-- This is where my image can be found within my images folder with the alt-->
       </div>
       <div class="carousel-item">
-        <h5> I love traveling, seeing different places, getting to know different people, cultures and FOOD! </h5>
-        <img src="images/newyork.jpeg" alt="Image of Chanique in New York">
+        <h5> I love traveling, seeing different places, getting to know different people, cultures and FOOD! </h5> <!-- I added these just to give a bit of background for each image and to make it fun-->
+        <img src="images/newyork.jpeg" alt="Image of Chanique in New York"> <!-- This is where my image can be found within my images folder with the alt-->
       </div>
     </div>
-
+    <!-- These are my carousel previous and next buttons on the sides, that helps the user go back to the previous image or next to the next image-->
     <button  class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
       <span class="carousel-control-prev-icon"></span>
     </button>
@@ -76,13 +79,13 @@
     </button>
   </div>  
 
-<main class="container-fluid">
+<main class="container-fluid"> <!-- This is where all the information happens, and where you learn more about my education, work experience and skills-->
 
   <div class="container bg-white bg-opacity-75 text-opacity-75 p-5 my-5 border border-dark border-2"> 
     <div id="article">
 
       <div class="content">
-        <h2 id="education">Education</h2>
+        <h2 id="education">Education</h2> <!-- This contains all my education that I have done so far, mostly short courses -->
 
         <h3>Current: Software Development course at <a href="http:codespace.co.za/">CodeSpace Academy</a></h3>
 
@@ -106,7 +109,7 @@
         </div>
     
         <div class="content">
-          <h2 id="experience">Work Experience</h2>
+          <h2 id="experience">Work Experience</h2> <!-- This is where the user will be able to read a bit more about my work experience and where I worked -->
         
           <h3>BMW Motorrad Sales Executive</h3>
           <p>
@@ -138,58 +141,57 @@
             </ul>
           </p>
       
-        <div class="content">
+        <div class="content"> <!-- This is where I put up all my skills and how good/bad I am in them, with a progress-bar to show instead of reading percentages it's an easier read with the bar-->
           <div class="mt-4 mx-auto p-md-5 bg-dark text-white rounded" style="max-width: auto;">
           <h2 id="skills">Skills</h2>
-
-          <div class="progress">
+          <h6>Computer proficiency</h6> <!-- Each <p> tag is for a different progress bar that shows my skills-->
+          <div class="progress"> <!-- These are my progress bars-->
             <div class="progress-bar" role="progressbar" style="width: 100%; background-color: teal;" aria-valuenow="0%" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p>Computer proficiency</p>
+        <h6>Leadership Skills</h6> <!-- Each <p> tag is for a different progress bar that shows my skills-->
           <div class="progress bg-white">
             <div class="progress-bar" role="progressbar" style="width: 85%; background-color: teal;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p>Leadership skills</p>
+        <h6>Communication Skills</h6> <!-- Each <p> tag is for a different progress bar that shows my skills-->
           <div class="progress bg-white">
             <div class="progress-bar" role="progressbar" style="width: 90%; background-color: teal;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p>Communication skills</p>
+        <h6>Problem Solving Abilities</h6> <!-- Each <p> tag is for a different progress bar that shows my skills-->
           <div class="progress bg-white">
             <div class="progress-bar" role="progressbar" style="width: 90%; background-color: teal;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p>Problem solving abilities</p>
+        <h6>Adaptibility</h6> <!-- Each <p> tag is for a different progress bar that shows my skills-->
           <div class="progress bg-white">
             <div class="progress-bar" role="progressbar" style="width: 100%; background-color: teal;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p>Adaptibility</p>
+        <h6>Creativity</h6> <!-- Each <p> tag is for a different progress bar that shows my skills-->
           <div class="progress bg-white">
             <div class="progress-bar" role="progressbar" style="width: 85%; background-color: teal;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p>Creativity</p>
         </div>
         
       </div> 
     </div>
   </main>
 
-    <footer>
+    <footer> <!-- This is my Web-Resume footer and where you can find links to my social profiles -->
 
-      <h4>Contact Details</h4>
+      <h4>Contact Details</h4> <!-- And now for my contact details, this is where you can either get hold of me, or see more about my life -->
 
       <ul>
-        <a href="https://www.linkedin.com/in/chanique-lombard-66a729168/" target="_blank">      
-          <img class="icons" src="images/linkedin.png"
-            alt="Chanique Lombard LinkedIn">
+        <a href="https://www.linkedin.com/in/chanique-lombard-66a729168/" target="_blank"> <!-- These are the icons links that will take you to the website for each icon-->     
+          <img class="icons" src="images/linkedin.png" 
+            alt="Chanique Lombard LinkedIn"> <!-- This is where I put my icons in a class and where you can find the icons in the images folder -->
         </a>   
         
-        <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=chanielomb@gmail.com&tf=1" target="_blank">
-          <img class="icons" src="images/mail.png"
-            alt="Email Chanique Lombard">
+        <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=chanielomb@gmail.com&tf=1" target="_blank"> <!-- These are the icons links that will take you to the website for each icon-->
+          <img class="icons" src="images/mail.png" 
+            alt="Email Chanique Lombard"> <!-- This is where I put my icons in a class and where you can find the icons in the images folder -->
         </a>
 
-        <a href="https://www.facebook.com/chanique.lombard.1/" target="_blank">    
+        <a href="https://www.facebook.com/chanique.lombard.1/" target="_blank"> <!-- These are the icons links that will take you to the website for each icon-->
           <img class="icons" src="images/facebook.png"
-            alt="Chanique Lombard FaceBook Page">
+            alt="Chanique Lombard FaceBook Page"> <!-- This is where I put my icons in a class and where you can find the icons in the images folder -->
         </a>
       </ul>
 

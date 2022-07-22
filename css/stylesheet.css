@@ -116,7 +116,7 @@ h2 {
   size: 24px;
   color: black;
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   font-weight: 900;
 }
 
@@ -135,6 +135,15 @@ h4 {
   color: white
 }
 
+.carousel-slide{
+  padding: 0.5rem;
+}
+
+h6{
+  font-size: larger;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
 .icons{
   align-content: stretch;
