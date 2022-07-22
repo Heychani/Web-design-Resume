@@ -115,14 +115,19 @@ h2 {
   margin-bottom: 3px;
   size: 24px;
   color: black;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-weight: 900;
 }
 
 p{
   opacity: 80%;
+  padding-left: 3rem;
 }
 
 h3 {
-  color: black;
+  padding-left: 2rem;
+  color: lightslategray;
   opacity: 90%;
 }
 
